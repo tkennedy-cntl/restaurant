@@ -6,23 +6,53 @@
     <title>Free Cow</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="/screen.css">
+    <style>
+        html {
+          font-family: sans-serif;
+        }
+  
+        body {
+          margin: 0;
+        }
+  
+        header {
+          background: purple;
+          height: 100px;
+        }
+  
+        h1 {
+          text-align: center;
+          color: white;
+          line-height: 100px;
+          margin: 0;
+        }
+  
+        article {
+          padding: 10px;
+          margin: 10px;
+          background: aqua;
+        }
+  
+        /* Add your flexbox CSS below here */
+  
+  
+        
+      </style>
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+ 
     <script src="/main.js" charset="utf-8"></script>
 <nav>
-  <ul>
-    <li>
-      <a>About</a>
-    </li>
-    <li>
-      <a>Founders</a>
+<div>
+  <ul class="nav">
+    <li>About</li>
+    <li>Founders</li>
       <ul>
-          <li>Elsie</li>
+          <li class="special">Elsie</li>
           <li>Farmer Joe</li>
       </ul>
     <li>
-      <a>Locations</a>
+      <li>Locations</li>
       <ul>
         <li>St Petersburg</li>
         <li>Dunedin</li>
@@ -37,6 +67,7 @@
       </ul>
     </li>
   </ul>
+</div>
 </nav>
 <header>
   <h1>Free Cow</h1>
@@ -45,33 +76,35 @@
   <a>Inspiration</a>
 </section>
 <main>
-  <section>
+
     <header>
       <h2>Menu</h2>
     </header>
-    <section>
-      <header>Vegan Menu</header>
-      <Img src="./images/Vegan_Image" alt="vegan Menu" />
-      <header>Creative Vegan Recipies</header>
-      <p>Our recipies include our most creative and popular dishes as well as rotating community inspired and recommended dishes.  Try someting new and let us know what you think!
-      </p>
-    </section>
-    <section>
-      <header>Free Range Pultry</header>
-      <Img src="./images/Chicken_Image.jpg" alt="Free Range Poultry Menu" />
-      <header>Happy Poultry Grown with Respect</header>
-      <p>Our Chickens are raised with love and transition to be your sustainable protein source in a state of poultry bliss, in the company of close family and fiends.
+    <div class="Menu">
+      <div>
+        <header>Vegan Menu</header>
+        <Img src="./Images/Vegan_Image.jpeg" alt="vegan Menu" />
+       <header>Creative Vegan Recipies</header>
+        <p>Our recipies include our most creative and popular dishes as well as rotating community inspired and recommended dishes.  Try someting new and let us know what you think!
+        </p>
+      </div>
+      <div>
+       <header>Free Range Pultry</header>
+       <Img src="./Images/Chicken_Image.jpg" alt="Free Range Poultry Menu" />
+       <header>Happy Poultry Grown with Respect</header>
+       <p>Our Chickens are raised with love and transition to be your sustainable protein source in a state of poultry bliss, in the company of close family and fiends.
           You can taste the happiness!
-      </p>
-    </section>
-    <section>
-      <header>Native Farm Raised Fish</header>
-      <Img src="./images/Native_Farm_Raised_Fish Image.jpg" alt="vegan Menu" />
+        </p>
+      </div>
+      <div>
+       <header>Native Farm Raised Fish</header>
+       <Img src="./Images/Native_Farm_Raised_Fish_Image.jpg" alt="Vegan Menu" />
       <header>Native Farm Raised Fish Recipies</header>
       <p>Our fish dishes come from locally farmed native fish grown in healthy sustainable farm ecosystems with the highest level of quality and safety.
           Our farms are nationally recognized for their taste, quality and low environmental impact.  Being native, our fish are non-invasive and happy in our farms.
-      </p>
-  </section>
+        </p>
+     </div>
+  </div>
   <form>
     <header>Contact Us</header>
     <input type="email" />
