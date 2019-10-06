@@ -1,5 +1,5 @@
 /* Create your test CSS here */
 
-p {
-    color: blue;
-  }
+section {
+  display: flex;
+}
