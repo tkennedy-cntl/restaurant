@@ -3,10 +3,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex: 1;
   background: rgb(206, 240, 204);
   height: 150px;
   
   border: solid;
+}
+.navbaritems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  height: 75%;
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  
+  
+
 }
 .special {
   color: rgb(4, 0, 255);
@@ -24,10 +38,20 @@
 }
 .Inspiration  {
   text-align: center;
+  ext
+}
 
+p {
+  font-size: 1.5rem;
+  border: solid;
+  background-color: yellow;
+}
+h2 {
+  text-align: center;
 }
 header {
   color: red;
+  font-size: 2rem
 
 }
 
@@ -42,7 +66,3 @@ h1 {
   text-align: center;
   
   
-}article {
-  padding: 10px;
-  margin: 10px;
-  background: aqua;
